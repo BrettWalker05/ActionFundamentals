@@ -58,22 +58,15 @@ jobs:
     steps:
       - run: |
           echo "🚀 Step 1..."
-          sleep 10
       - run: |
           echo "🚀 Step 2..."
-          sleep 10
       - run: |
           echo "🚀 Step 3..."
-          sleep 10
       - run: |
           echo "🚀 Step 4..."
-          sleep 10
       - run: |
           echo "🚀 Step 5..."
-          sleep 10
       - run: |
           echo ${{ secrets.LET_ME_IN }}
-          sleep 10
       - run: |
-          echo ${{ secrets.TELL_ME }}
-          sleep 10
+          echo ${{ TELL_ME }}
