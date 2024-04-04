@@ -69,4 +69,4 @@ jobs:
       - run: |
           echo ${{ secrets.LET_ME_IN }}
       - run: |
-          echo $TELL_ME
+          echo ${{ vars.TELL_ME }}
